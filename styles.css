@@ -1,11 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  margin: 0 auto;
+  background-image: url("https://img.freepik.com/free-photo/gray-wall-textures-background_74190-4389.jpg?t=st=1652132962~exp=1652133562~hmac=321993c97598c8a28bc8eb6efa27aeae97d27788fc94cd464885cae63f422630&w=1060");
 }
 
 .menu-items {
   background-color: red;
-  height: 75px;
-  width: 100%;
+  height: 60px;
   position: sticky;
   top: 0;
   left: 0;
@@ -15,7 +23,7 @@ body {
   align-items: center;
   justify-content: space-between;
 
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2px;
   text-transform: uppercase;
 
   padding-left: 25px;
@@ -25,31 +33,30 @@ body {
 .logo-div {
   height: 50px;
   width: 50px;
+
+  background-color: aliceblue;
+  border-radius: 50%;
+  border: 1px solid black;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
-  height: 100%;
-
   list-style: none;
+  gap: 20px;
 }
 
-a {
+.menu-items a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
 
-.destaque {
-  border: 2px solid coral;
-  margin-top: 100px;
-
-  display: flex;
-  gap: 20px;
+.menu-items a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 img {
@@ -57,9 +64,8 @@ img {
   height: 100%;
   max-width: 600px;
   max-height: 400px;
-}
 
-.destaque-text {
+  border-radius: 20px;
 }
 
 h3 {
@@ -68,44 +74,44 @@ h3 {
   margin-top: 20px;
 }
 
-h4 {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 20px;
-}
-
+h4,
 p {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
 }
 
-.div-restaurante {
-  border: 2px solid coral;
-  margin-top: 100px;
-
-  display: flex;
-  gap: 20px;
-}
-
-.img-restaurante {
-}
-
-.restaurante-text {
-}
-
+.destaque,
+.div-restaurante,
+.div-evento,
 .div-cardapio {
-  border: 2px solid coral;
-  margin-top: 100px;
+  margin: 100px 50px 0 50px;
 
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
-.div-evento {
-  border: 2px solid coral;
-  margin-top: 100px;
+.cardapio-text a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: black;
+}
 
-  display: flex;
-  gap: 20px;
+.cardapio-text a:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+
+footer {
+  background-color: red;
+  position: absolute;
+  bottom: -50;
+  left: 0;
+  margin-top: 10rem;
+
+  width: 100%;
+  height: 50px;
 }
