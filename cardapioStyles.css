@@ -78,12 +78,17 @@ body {
   align-items: center;
   justify-content: center;
   max-width: 95vw;
-  height: 60vh;
+
   gap: 3rem;
 }
 
 .backarrow {
   margin: 50px 0 20px 20px;
+}
+
+.backarrow:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .arrow-button {
@@ -97,19 +102,10 @@ body {
   gap: 10px;
 }
 
-.arrow-button img {
+.backarrow-img {
   width: 30px;
   height: 30px;
-  align-self: flex-end;
-}
-
-.title {
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-weight: 600;
-  margin-bottom: 25px;
-  margin-left: 20px;
+  align-self: center;
 }
 
 footer {

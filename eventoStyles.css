@@ -3,14 +3,8 @@
   padding: 0;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   background-image: url("https://img.freepik.com/free-photo/gray-wall-textures-background_74190-4389.jpg?t=st=1652132962~exp=1652133562~hmac=321993c97598c8a28bc8eb6efa27aeae97d27788fc94cd464885cae63f422630&w=1060");
-  overflow: hidden;
-  object-fit: contain;
 }
 
 .menu-items {
@@ -61,81 +55,11 @@ body {
   text-decoration: underline;
 }
 
-img {
-  width: 100%;
+.logo-div img {
+  width: 50%;
   height: 100%;
   max-width: 600px;
   max-height: 400px;
 
   border-radius: 20px;
-}
-
-.title {
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
-p {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 20px;
-}
-
-.backarrow {
-  margin: 50px 0 20px 20px;
-}
-
-.arrow-button {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: monospace;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-}
-
-.arrow-button img {
-  width: 30px;
-  height: 30px;
-  align-self: flex-end;
-}
-
-footer {
-  background-color: red;
-  position: absolute;
-  bottom: -50;
-  left: 0;
-  margin-top: 10rem;
-
-  width: 100%;
-  height: 50px;
-}
-
-.destaque-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  max-width: 600px;
-  text-align: justify;
-}
-
-.ing {
-  align-self: center;
-}
-
-.hist {
-  align-self: center;
 }
