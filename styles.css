@@ -91,7 +91,10 @@ p {
   gap: 40px;
 }
 
-.cardapio-text a {
+.cardapio-text a,
+.destaque-text a,
+.restaurante-text a,
+.evento-text a {
   text-decoration: none;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
@@ -99,7 +102,7 @@ p {
   color: black;
 }
 
-.cardapio-text a:hover {
+.mais-link:hover {
   text-decoration: underline;
   color: red;
   cursor: pointer;
