@@ -71,14 +71,12 @@ img {
 h3 {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
-  margin-top: 20px;
 }
 
 h4,
 p {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
-  margin-top: 20px;
 }
 
 .destaque,
@@ -106,6 +104,15 @@ p {
   text-decoration: underline;
   color: red;
   cursor: pointer;
+}
+
+.cardapio-text,
+.destaque-text,
+.restaurante-text,
+.evento-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 footer {
