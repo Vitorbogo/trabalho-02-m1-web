@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardapio</title>
+    <link rel="stylesheet" href="cardapioStyles.css" />
+    <script>
+      module.exports = {
+        // ...
+        plugins: [
+          // ...
+          require("@tailwindcss/aspect-ratio"),
+        ],
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="menu-items">
+      <a href="index.html"
+        ><img src="logo.png" class="logo-div" alt="logo"
+      /></a>
+      <ul class="nav-links">
+        <li>
+          <a href="#">Destaque</a>
+        </li>
+        <li>
+          <a href="#anchor-restaurante">O Restaurante</a>
+        </li>
+        <li>
+          <a href="#anchor-cardapio">Cardapio</a>
+        </li>
+        <li>
+          <a href="#anchor-eventos">Eventos</a>
+        </li>
+        <li>
+          <a href="login.html">Login</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="backarrow">
+      <a href="index.html" class="arrow-button"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/109/109618.png"
+          alt="Seta Para voltar"
+          class="backarrow-img"
+        />
+        <p class="p-a">Voltar</p></a
+      >
+    </div>
+    <div class="bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+          <h2 class="text-2xl font-extrabold text-gray-900 title">Cardápio</h2>
+
+          <div
+            class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 wrapper"
+          >
+            <div class="group relative">
+              <div
+                class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"
+              >
+                <img
+                  src="https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-2459-a3d849ce575c69a18e61a51e04bfa3d9.jpg"
+                  alt="Macaroni com camaron."
+                  class="w-full h-full object-center object-cover card-img"
+                />
+              </div>
+              <h3 class="mt-6 text-sm text-gray-500">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Macarrão com molho de camarão
+                </a>
+              </h3>
+              <p class="text-base font-semibold text-gray-900">$ 48</p>
+            </div>
+
+            <div class="group relative">
+              <div
+                class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"
+              >
+                <img
+                  src="https://eupreparo.com.br/wp-content/uploads/2020/03/SOPA-DE-AGNOLINE-1.jpg"
+                  alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
+                  class="w-full h-full object-center object-cover card-img"
+                />
+              </div>
+              <h3 class="mt-6 text-sm text-gray-500">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Sopa de agnolini
+                </a>
+              </h3>
+              <p class="text-base font-semibold text-gray-900">$ 28</p>
+            </div>
+
+            <div class="group relative">
+              <div
+                class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"
+              >
+                <img
+                  src="https://s2.glbimg.com/otAhr31875TU1YwrIb2hSGs9Mnk=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/1/s/guJyEAT8uifLSuVDq6XQ/risoto-de-camarao.jpg"
+                  alt="Collection of four insulated travel bottles on wooden shelf."
+                  class="w-full h-full object-center object-cover card-img"
+                />
+              </div>
+              <h3 class="mt-6 text-sm text-gray-500">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Risoto de camarão com alho poró
+                </a>
+              </h3>
+              <p class="text-base font-semibold text-gray-900">$ 55</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
